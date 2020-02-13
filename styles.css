@@ -1,0 +1,17 @@
+body {
+  background-color: #D2D6D7;
+  color: #464653;
+  padding: 20px;
+}
+
+section {
+  background-color: #F6F7F3;
+  border: 1px #BA455B solid;
+  border-radius: 15px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+h1 {
+  color: #582B3E;
+}
