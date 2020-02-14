@@ -7,7 +7,7 @@ body {
 
 section {
   background-color: #F6F7F3;
-  border: 1px #BA455B solid;
+  /* border: 2px #BA455B outset; */
   border-radius: 15px;
   margin: 10px 0px;
   padding: 20px;
@@ -17,17 +17,18 @@ section {
 
 h1 {
   color: #582B3E;
+  font-size: 30px;
 }
 
 .content {
   display: flex;
-
+  justify-content: space-between;
 }
 
-.column-a {
+.column-large {
   width: 65%;
 }
 
-.column-b {
+.column-small {
   width: 30%;
 }
