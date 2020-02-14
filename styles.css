@@ -1,6 +1,7 @@
 body {
   background-color: #D2D6D7;
   color: #464653;
+  font-family: 'Quicksand', sans-serif;
   padding: 20px;
 }
 
@@ -9,9 +10,24 @@ section {
   border: 1px #BA455B solid;
   border-radius: 15px;
   margin: 10px 0px;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   color: #582B3E;
+}
+
+.content {
+  display: flex;
+
+}
+
+.column-a {
+  width: 65%;
+}
+
+.column-b {
+  width: 30%;
 }
