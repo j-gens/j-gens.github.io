@@ -2,13 +2,37 @@ body {
   background-color: #D2D6D7;
   color: #464653;
   font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   padding: 20px;
+  background-color: #BA455B;
+  color: white;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 600;
+  width: 65%;
+}
+
+.nav-links {
+  font-size: 18px;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 section {
   background-color: #F6F7F3;
   border-radius: 15px;
-  margin: 10px 0px;
+  margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
