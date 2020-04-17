@@ -1,0 +1,12 @@
+body {
+  background-image: url('images/keyboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
