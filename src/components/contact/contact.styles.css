@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(70, 70, 70);
+}
+
+.contact--title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact--subtitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact--links {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--link a:link, a:visited {
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact--link a:hover, a:active {
+  text-shadow: 5px 5px 5px gray;
+}
