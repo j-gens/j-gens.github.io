@@ -1,0 +1,46 @@
+.portfolio-app {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 3px rgb(189, 189, 189);
+  height: fit-content;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.portfolio-app:hover {
+  box-shadow: 6px 6px 6px rgb(164, 144, 167);
+}
+
+.portfolio-app--content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.portfolio-app--about {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  color: rgb(25, 25, 25);
+}
+
+.portfolio-app--tech {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.portfolio-app--tech--stack {
+  font-size: 13px;
+  width: fit-content;
+  padding: 5px 7px;
+  margin: 3px 2px;
+  color: white;
+  background-color: rgb(97, 76, 100);
+}
+
+.portfolio-app--image {
+  height: 300px;
+}
