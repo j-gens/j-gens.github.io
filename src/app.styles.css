@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.app > div {
+  width: 85vw;
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 48px;
+  color: rgb(43, 1, 65);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.section-subtitle__large {
+  font-size: 30px;
+}
+
+.section-subtitle__small {
+  font-size: 24px;
+}
