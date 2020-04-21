@@ -5,10 +5,10 @@ import './contact.styles.css';
 
 const Contact = () => (
   <div className='contact'>
-    <span className='contact--title'>
-      Contact Me
+    <span className='section-title'>
+      Get in Touch
     </span>
-    <span className='contact--subtitle'>
+    <span className='section-subtitle__small'>
       I would love to hear from you!
     </span>
     <div className='contact--links'>
