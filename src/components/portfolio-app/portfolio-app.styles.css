@@ -1,22 +1,44 @@
-.portfolio-app {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  background-color: whitesmoke;
-  box-shadow: 3px 3px 3px rgb(189, 189, 189);
-  height: fit-content;
-  margin: 10px 0px;
-  border-radius: 5px;
+@media screen and (min-width: 800px) {
+  .portfolio-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .portfolio-app--content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .portfolio-app--image {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.portfolio-app:hover {
-  box-shadow: 6px 6px 6px rgb(164, 144, 167);
-}
+@media screen and (max-width: 799px) {
+  .portfolio-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-.portfolio-app--content {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
+  .portfolio-app--content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    margin: 10px 0;
+  }
+
+  .portfolio-app--image {
+    width: 90%;
+    align-self: center;
+    margin: 10px 0;
+  }
 }
 
 .portfolio-app--about {
@@ -41,6 +63,6 @@
   background-color: rgb(97, 76, 100);
 }
 
-.portfolio-app--image {
-  height: 300px;
+.portfolio-app--image img {
+  width: 100%;
 }
