@@ -1,0 +1,24 @@
+@media screen and (min-width: 700px) {
+  .skill-set {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .skill-set {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.skill-set .section-subtitle__large {
+  margin-bottom: 10px;
+}
+
+.skill-set--content--item {
+  margin-bottom: 5px;
+}
