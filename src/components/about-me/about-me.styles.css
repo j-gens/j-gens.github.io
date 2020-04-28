@@ -1,0 +1,8 @@
+.about-me--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me--content--p {
+  margin: 5px 0;
+}
