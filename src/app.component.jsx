@@ -13,10 +13,10 @@ import './app.styles.css';
 const App = () => (
   <div className='app'>
     <Welcome />
+    <AboutMe />
     <Portfolio />
     <Skills />
-    <Education />
-    <AboutMe />
+    {/* <Education /> */}
     <Contact />
   </div>
 );
