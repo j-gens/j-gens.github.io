@@ -26,3 +26,16 @@
 .section-subtitle__small {
   font-size: 24px;
 }
+
+.subsection {
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 3px rgb(189, 189, 189);
+  height: fit-content;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.subsection:hover {
+  box-shadow: 6px 6px 6px rgb(164, 144, 167);
+}
