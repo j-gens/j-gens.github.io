@@ -14,12 +14,12 @@ const Education = () => (
       {
         EDUSKILLS.education.map(edu =>
           <div className='edu--content--item' key={edu.school}>
-            <div className='section-subtitle__large'>
-              {edu.school}
-            </div>
-            <div className='section-subtitle__small'>
-              {edu.detail}
-            </div>
+              <div className='section-subtitle__large'>
+                {edu.school}
+              </div>
+              <div className='section-subtitle__small'>
+                {edu.detail}
+              </div>
           </div>
         )
       }

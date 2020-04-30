@@ -1,3 +1,8 @@
+.edu--content {
+  display: flex;
+  flex-direction: column;
+}
+
 .edu--content--item {
   display: flex;
   flex-direction: column;
