@@ -4,7 +4,7 @@
 * [Technologies](https://github.com/j-gens/j-gens.github.io#technologies)
 * [License](https://github.com/j-gens/j-gens.github.io#license)
 
-![alt computer](https://j-gens-portfolio.s3-us-west-1.amazonaws.com/bg-001.jpg)
+![alt computer](https://j-gens-portfolio.s3-us-west-1.amazonaws.com/bg-002.jpg)
 
 ## Overview
 
