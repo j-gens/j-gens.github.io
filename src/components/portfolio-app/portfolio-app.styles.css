@@ -13,6 +13,8 @@
 
   .portfolio-app--image {
     width: 35%;
+    max-height: 250px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,8 +38,10 @@
 
   .portfolio-app--image {
     width: 90%;
+    max-height: 250px;
     align-self: center;
     margin: 10px 0;
+    overflow: hidden;
   }
 }
 
