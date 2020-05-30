@@ -34,7 +34,9 @@ const PortfolioApp = (props) => {
         </div>
       </div>
       <div className='portfolio-app--image'>
-        <img src={url.image} alt={tagline} />
+        <a href={url.github} target='_blank'>
+          <img src={url.image} alt={tagline} />
+        </a>
       </div>
     </div>
   )
