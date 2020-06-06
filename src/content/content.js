@@ -1,38 +1,67 @@
 export const PORTFOLIO = {
   apps: [
     {
-      name: 'reVIEW',
-      tagline: 'A review-aggregation app for popular media',
-      extra: 'My work on this application was done as part of a five-person remote team.  We adopted many Agile practices - including daily stand-ups and Trello boards for workflow visualization.  Every part of this application is a separate module.  My objective was to build the image carousel, with a focus on clean and functional design.  I constructed the module with React and styled-components for a dynamic and animated experience.  Testing was done with Jest, Enzyme, and SuperTest.',
-      about: [
-        'Designed and built media carousel service',
-        'Resolved team integration conflicts via Webpack optimization',
-        'Coordinated and deployed entire team’s modules on proxy server EC2 instance',
-        'Utilized agile workflow practices on a 5-person remote team'
-      ],
-      tech: [
-        'JavaScript', 'React', 'styled-components', 'Webpack', 'Babel', 'Jest', 'Enzyme', 'SuperTest', 'Node.js / Express', 'MongoDB / Mongoose', 'AWS (EC2, S3)', 'Git / Github'
-      ],
-      url: {
-        github: 'https://github.com/j-gens/photo-carousel',
-        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/review-gen.jpg'
-      }
-    },
-    {
       name: 'weWare',
       tagline: 'A marketplace app for handmade goods and wares',
       about: [
         'Replaced and built out photo carousel service back end',
         'Optimized PostgreSQL data schema to reduce query time latency from 3s to 4ms',
-        'Executed horizontal scaling with multiple EC2 instances and implemented load balancer for 200% increase in throughput while maintaining response time latency'
+        'Executed horizontal scaling with multiple EC2 instances and implemented load balancer for 200% increase in throughput while maintaining response time latency',
       ],
       tech: [
         'JavaScript', 'React', 'Node.js / Express', 'SQL / PostgreSQL', 'New Relic', 'loader.io', 'k6.io', 'nginx', 'AWS (EC2)', 'Git / Github'
       ],
       url: {
-        github: 'https://github.com/j-gens/BTetsy-imagecarousel',
+        github: 'https://github.com/j-gens/craft-marketplace-app',
         image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/weware-gen.jpg'
-      }
+      },
+    },
+    {
+      name: 'reVIEW',
+      tagline: 'A review-aggregation app for popular media',
+      about: [
+        'Designed and built media carousel service',
+        'Resolved team integration conflicts via Webpack optimization',
+        'Coordinated and deployed entire team\’s modules on proxy server EC2 instance',
+        'Utilized agile workflow practices on a 5-person remote team',
+      ],
+      tech: [
+        'JavaScript', 'React', 'styled-components', 'Webpack', 'Babel', 'Jest', 'Enzyme', 'SuperTest', 'Node.js / Express', 'MongoDB / Mongoose', 'AWS (EC2, S3)', 'Git / Github'
+      ],
+      url: {
+        github: 'https://github.com/j-gens/review-aggregation-app',
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/review-gen.jpg'
+      },
+    },
+    {
+      name: 'Plantology',
+      tagline: 'An e-commerce app for house plants, cacti, succulents, and more',
+      about: [
+        'Designed and built React front end with Redux for state management; improved app performance by implementing route-based code-splitting and lazy loading techniques',
+        'Utilized Google Firebase for authentication, Cloud Firestore for data storage, and integrated with Stripe API for payment processing',
+      ],
+      tech: [
+        'JavaScript', 'React', 'Redux', 'React-Router', 'Webpack', 'Babel', 'Node.js / Express', 'Firebase', 'Stripe', 'HTML5 / CSS', 'Git / Github'
+      ],
+      url: {
+        github: 'https://github.com/j-gens/plant-commerce-app',
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/plantology-gen.jpg'
+      },
+    },
+    {
+      name: 'Athletour',
+      tagline: 'A sports venues tracking app for hockey fans',
+      about: [
+        'The "Ice Bucket List" for any NHL fan looking to attend a game in every arena!',
+        'Developed a responsive user experience complete with a RESTful backend server and noSQL database',
+      ],
+      tech: [
+        'JavaScript', 'React', 'Webpack', 'Babel', 'Node.js / Express', 'MongoDB / Mongoose', 'HTML5 / CSS',  'AWS (EC2)', 'Git / Github'
+      ],
+      url: {
+        github: 'https://github.com/j-gens/MVP-Athletour',
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/athletour-gen.jpeg'
+      },
     }
   ]
 };
