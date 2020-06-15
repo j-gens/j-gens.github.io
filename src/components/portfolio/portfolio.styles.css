@@ -1,26 +1,5 @@
 .portfolio--content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
-
-/* @media screen and (max-width: 599px) {
-  .portfolio--content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 90%;
-    grid-template-rows: repeat(4, 20%);
-    grid-gap: 5%;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .portfolio--content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 47% 47%;
-    grid-template-rows: 47% 47%;
-    grid-gap: 5%;
-    margin-bottom: 20px;
-  }
-} */
