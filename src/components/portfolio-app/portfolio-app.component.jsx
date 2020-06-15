@@ -4,39 +4,33 @@ import './portfolio-app.styles.css';
 
 
 const PortfolioApp = (props) => {
-  const { name, tagline, about, tech, url } = props.app;
+  const { name, tagline, tech, url } = props.app;
   return (
-    <div className='portfolio-app subsection'>
+    <div className='portfolio-app'>
+      <div className='portfolio-app--image' style={{backgroundImage: `url(${url.image})`}}>
+      </div>
       <div className='portfolio-app--content'>
-        <span className='section-subtitle__large'>
+        <div className='section-subtitle__large'>
           {name}
-        </span>
-        <span className='section-subtitle__small'>
+        </div>
+        <div className='section-subtitle__small'>
           {tagline}
-        </span>
-        <div className='portfolio-app--about'>
-          {
-            about.map(item =>
-              <div className='porfolio-app--about--item' key={item}>
-                &#x2022; {item}
-              </div>
-            )
-          }
         </div>
         <div className='portfolio-app--tech'>
           {
-            tech.map(string =>
-              <div className='portfolio-app--tech--stack' key={string}>
-                {string.toUpperCase()}
-              </div>
-              )
+            tech.map((item, index) =>
+              <div className='portfolio-app--tech-item' key={index}>{item}</div>
+            )
           }
         </div>
-      </div>
-      <div className='portfolio-app--image'>
-        <a href={url.github} target='_blank'>
-          <img src={url.image} alt={tagline} />
-        </a>
+        <div className='portfolio-app--links'>
+          <a href={url.github} target='_blank'>
+            See on GitHub &#8658;
+          </a>
+          {/* <a href={url.details} target='_blank'>
+            See More Details &#8658;
+          </a> */}
+        </div>
       </div>
     </div>
   )
