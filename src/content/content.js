@@ -13,7 +13,8 @@ export const PORTFOLIO = {
       ],
       url: {
         github: 'https://github.com/j-gens/craft-marketplace-app',
-        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/weware-gen.jpg'
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/weware-gen.jpg',
+        deploy: '',
       },
     },
     {
@@ -30,7 +31,8 @@ export const PORTFOLIO = {
       ],
       url: {
         github: 'https://github.com/j-gens/review-aggregation-app',
-        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/review-gen.jpg'
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/review-gen.jpg',
+        deploy: '',
       },
     },
     {
@@ -45,7 +47,8 @@ export const PORTFOLIO = {
       ],
       url: {
         github: 'https://github.com/j-gens/plant-commerce-app',
-        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/plantology-gen.jpg'
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/plantology-gen.jpg',
+        deploy: 'ec2-54-151-26-136.us-west-1.compute.amazonaws.com',
       },
     },
     {
@@ -56,11 +59,12 @@ export const PORTFOLIO = {
         'Developed a responsive user experience complete with a RESTful backend server and noSQL database',
       ],
       tech: [
-        'JavaScript', 'React', 'Webpack', 'Babel', 'Node.js / Express', 'MongoDB / Mongoose', 'HTML5 / CSS',  'AWS (EC2)', 'Git / Github'
+        'JavaScript', 'React', 'React-Router', 'Webpack', 'Babel', 'Node.js / Express', 'MongoDB / Mongoose', 'HTML5 / CSS',  'AWS (EC2)', 'Git / Github'
       ],
       url: {
         github: 'https://github.com/j-gens/MVP-Athletour',
-        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/athletour-gen.jpeg'
+        image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/athletour-gen.jpeg',
+        deploy: '',
       },
     }
   ]
@@ -82,20 +86,6 @@ export const ABOUTME = {
 
 
 export const EDUSKILLS = {
-  education: [
-    {
-      school: 'University of Illinois at Urbana-Champaign',
-      detail: 'Bachelor of Science in Integrative Biology and Chemistry',
-      year: 2009,
-      logo: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/UIUC-logo.png'
-    },
-    {
-      school: 'Hack Reactor at Galvanize',
-      detail: 'Software Engineer Immersive Program',
-      year: 2019,
-      logo: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/HR-logo.png'
-    }
-  ],
   skills: [
     {
       title: 'Front-End',
@@ -117,6 +107,7 @@ export const EDUSKILLS = {
     }
   ]
 };
+
 
 export const CONTACT = {
   links: [
