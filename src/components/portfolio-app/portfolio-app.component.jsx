@@ -27,6 +27,9 @@ const PortfolioApp = (props) => {
           <a href={url.github} target='_blank'>
             See on GitHub &#8658;
           </a>
+          <a href={url.more} target='_blank'>
+            See more details &#8658;
+          </a>
           {/* <a href={url.details} target='_blank'>
             See More Details &#8658;
           </a> */}
