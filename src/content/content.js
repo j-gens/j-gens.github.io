@@ -9,11 +9,12 @@ export const PORTFOLIO = {
         'Executed horizontal scaling with multiple EC2 instances and implemented load balancer for 200% increase in throughput while maintaining response time latency',
       ],
       tech: [
-        'JavaScript', 'React', 'Node.js / Express', 'SQL / PostgreSQL', 'New Relic', 'loader.io', 'k6.io', 'nginx', 'AWS (EC2)', 'Git / Github'
+        'JavaScript', 'React', 'Node.js / Express', 'SQL / PostgreSQL',
       ],
       url: {
         github: 'https://github.com/j-gens/craft-marketplace-app',
         image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/weware-gen.jpg',
+        more: 'https://j-gens.github.io/craft-marketplace-app/',
         deploy: '',
       },
     },
@@ -27,11 +28,12 @@ export const PORTFOLIO = {
         'Utilized agile workflow practices on a 5-person remote team',
       ],
       tech: [
-        'JavaScript', 'React', 'styled-components', 'Webpack', 'Babel', 'Jest', 'Enzyme', 'SuperTest', 'Node.js / Express', 'MongoDB / Mongoose', 'AWS (EC2, S3)', 'Git / Github'
+        'JavaScript', 'React', 'Node.js / Express', 'MongoDB / Mongoose',
       ],
       url: {
         github: 'https://github.com/j-gens/review-aggregation-app',
         image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/review-gen.jpg',
+        more: 'https://j-gens.github.io/review-aggregation-app/',
         deploy: '',
       },
     },
@@ -43,11 +45,12 @@ export const PORTFOLIO = {
         'Utilized Google Firebase for authentication, Cloud Firestore for data storage, and integrated with Stripe API for payment processing',
       ],
       tech: [
-        'JavaScript', 'React', 'Redux', 'React-Router', 'Webpack', 'Babel', 'Node.js / Express', 'Firebase', 'Stripe', 'HTML5 / CSS', 'Git / Github'
+        'JavaScript', 'React', 'Redux', 'Node.js / Express', 'Firebase',
       ],
       url: {
         github: 'https://github.com/j-gens/plant-commerce-app',
         image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/plantology-gen.jpg',
+        more: 'https://j-gens.github.io/plant-commerce-app/',
         deploy: 'ec2-54-151-26-136.us-west-1.compute.amazonaws.com',
       },
     },
@@ -59,11 +62,12 @@ export const PORTFOLIO = {
         'Developed a responsive user experience complete with a RESTful backend server and noSQL database',
       ],
       tech: [
-        'JavaScript', 'React', 'React-Router', 'Webpack', 'Babel', 'Node.js / Express', 'MongoDB / Mongoose', 'HTML5 / CSS',  'AWS (EC2)', 'Git / Github'
+        'JavaScript', 'React', 'Node.js / Express', 'MongoDB / Mongoose',
       ],
       url: {
         github: 'https://github.com/j-gens/MVP-Athletour',
         image: 'https://j-gens-portfolio.s3-us-west-1.amazonaws.com/athletour-gen.jpeg',
+        more: 'https://j-gens.github.io/MVP-Athletour/',
         deploy: '',
       },
     }
