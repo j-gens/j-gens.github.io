@@ -70,7 +70,22 @@ export const PORTFOLIO = {
         more: 'https://j-gens.github.io/MVP-Athletour/',
         deploy: '',
       },
-    }
+    },
+    {
+      name: 'Tic-Tac-Toe',
+      tagline: 'A fun and classic game of tic-tac-toe',
+      about: [
+      ],
+      tech: [
+        'JavaScript', 'HTML', 'CSS',
+      ],
+      url: {
+        github: 'https://github.com/j-gens/tictactoe-puzzle',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/300px-Tic_tac_toe.svg.png',
+        more: 'https://j-gens.github.io/tictactoe-puzzle/',
+        deploy: '',
+      },
+    },
   ]
 };
 
