@@ -6,7 +6,7 @@ import './about-me.styles.css';
 
 
 const AboutMe = () => (
-  <div className='about-me'>
+  <div className='about-me' id='about-me'>
     <span className='section-title'>
       About Me
     </span>
