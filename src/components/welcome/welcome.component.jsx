@@ -11,6 +11,11 @@ const Welcome = () => (
     <div className='welcome--subtitle'>
       Software Engineer
     </div>
+    <div className='welcome--scroll'>
+      <a href='#about-me'>
+        Check Out More Below &#8595;
+      </a>
+    </div>
   </div>
 );
 

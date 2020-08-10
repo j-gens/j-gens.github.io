@@ -11,10 +11,29 @@
   font-weight: 600;
   color: white;
   text-shadow: 3px 3px 5px rgb(70, 70, 70);
+  padding-top: 20vh;
 }
 
 .welcome--subtitle {
   font-size: 40px;
   color: white;
   text-shadow: 3px 3px 5px rgb(70, 70, 70);
+}
+
+.welcome--scroll {
+  padding-top: 30vh;
+}
+
+.welcome--scroll a {
+  font-size: 20px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(70, 70, 70);
+  text-decoration: none;
+}
+
+.welcome--scroll a:visited {
+  font-size: 20px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(70, 70, 70);
+  text-decoration: none;
 }
