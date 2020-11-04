@@ -123,6 +123,17 @@ a:hover {
   grid-gap: 20px;
 }
 
+.portfolio--button {
+  align-self: center;
+  padding-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.portfolio--button:hover {
+  font-weight: 600;
+}
+
 .portfolio-app {
   box-shadow: 5px 5px 5px rgb(189, 189, 189);
   background-position: center;
