@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './skill-set.styles.css';
-
 
 const SkillSet = (props) => {
   const { title, tech } = props.skill;

@@ -1,14 +1,10 @@
 import React from 'react';
 
-import './portfolio-app.styles.css';
-
 
 const PortfolioApp = (props) => {
   const { name, tagline, tech, url } = props.app;
   return (
-    <div className='portfolio-app'>
-      <div className='portfolio-app--image' style={{backgroundImage: `url(${url.image})`}}>
-      </div>
+    <div className='portfolio-app' style={{backgroundImage: `url(${url.image})`}}>
       <div className='portfolio-app--content'>
         <div className='section-subtitle__large'>
           {name}
@@ -30,9 +26,6 @@ const PortfolioApp = (props) => {
           <a href={url.more} target='_blank'>
             See more details &#8658;
           </a>
-          {/* <a href={url.details} target='_blank'>
-            See More Details &#8658;
-          </a> */}
         </div>
       </div>
     </div>

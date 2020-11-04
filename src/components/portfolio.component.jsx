@@ -1,9 +1,7 @@
 import React from 'react';
 
-import PortfolioApp from '../portfolio-app/portfolio-app.component.jsx';
-import { PORTFOLIO } from '../../content/content.js';
-
-import './portfolio.styles.css';
+import PortfolioApp from './portfolio-app.component.jsx';
+import { PORTFOLIO } from '../content/content.js';
 
 
 const Portfolio = () => (

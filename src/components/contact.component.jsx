@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { CONTACT } from '../../content/content.js';
-
-import './contact.styles.css';
+import { CONTACT } from '../content/content.js';
 
 
 const Contact = () => {

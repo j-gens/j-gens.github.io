@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { EDUSKILLS } from '../../content/content.js';
-import SkillSet from '../skill-set/skill-set.component.jsx';
+import { EDUSKILLS } from '../content/content.js';
+import SkillSet from './skill-set.component.jsx';
 
-import './skills.styles.css';
 
 const Skills = () => (
   <div className='skills'>
