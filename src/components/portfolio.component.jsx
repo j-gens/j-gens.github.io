@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
   render() {
     const { seeMore, moreText, lessText } = this.state;
     return (
-      <div className='portfolio'>
+      <div className='portfolio' id='portfolio'>
         <span className='section-title'>
           Portfolio
         </span>

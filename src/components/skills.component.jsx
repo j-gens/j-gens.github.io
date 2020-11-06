@@ -5,7 +5,7 @@ import SkillSet from './skill-set.component.jsx';
 
 
 const Skills = () => (
-  <div className='skills'>
+  <div className='skills' id='skills'>
     <span className='section-title'>
         Skills
     </span>

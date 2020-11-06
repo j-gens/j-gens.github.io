@@ -6,7 +6,7 @@ import { CONTACT } from '../content/content.js';
 const Contact = () => {
   const { links } = CONTACT;
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <div className='contact--content'>
         <div className='contact--content--title'>
           <span className='section-title'>
