@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: white;
+  --secondary-color: black;
+  --nav-color: red;
+}
+
+.header {
+  background-color: var(--nav-color);
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
